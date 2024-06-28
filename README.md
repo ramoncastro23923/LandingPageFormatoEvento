@@ -47,7 +47,3 @@ Este projeto é uma landing page desenvolvida em React para um evento de anivers
 - **Alteração de Conteúdo:** Modifique o conteúdo dos componentes dentro de `src/components/`.
 - **Estilos:** Ajuste o CSS em `src/components/EventDetails.css` para personalizar o design da página conforme necessário.
 - **Adição de Funcionalidades:** Adicione novos componentes ou funcionalidades ao projeto conforme desejado.
-
-## Contribuição
-
-Sinta-se à vontade para contribuir com novas funcionalidades, correções de bugs ou melhorias na página de evento. Basta enviar um pull request!
