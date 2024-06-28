@@ -1,0 +1,46 @@
+.countdown-container {
+    background: linear-gradient(135deg, #673AB7, #512DA8);
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.countdown-message {
+    font-size: 1.5rem;
+    margin: 0;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .countdown-container {
+        padding: 15px;
+        margin: 15px 0;
+    }
+
+    .countdown-message {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .countdown-container {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .countdown-message {
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+ @media (max-width: 768px) {
+  main {
+      padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+      padding: 5px;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  main {
+      padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+      padding: 5px;
+  }
+}
+

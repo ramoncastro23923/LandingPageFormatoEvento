@@ -1,0 +1,55 @@
+.header {
+    background-color: #4CAF50;
+    color: rgb(255, 0, 0);
+    padding: 20px 0;
+}
+
+.header {
+    background: linear-gradient(135deg, #ffffff, #025bff);
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+.header::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+    margin: 0 auto 10px;
+    border-radius: 5px;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+.header::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+    margin: 0 auto 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.5rem;
+        padding: 0 5px;
+    }
+}
